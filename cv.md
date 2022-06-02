@@ -5,8 +5,6 @@
 *Phone: +375 29 7322324*
 
 *E-mail: vlasovgomel@gmail.com*
-
-*Telegram: +375 29 7322324*
 #
 ### Briefly About Myself:
 ### I love to learn new things and improve on the old. I enjoy programming, I feel satisfaction from the very process of thinking and writing code. I like to consider several solutions and choose the best, look at the problem from different angles, offering effective solutions. In this area, you are constantly engaged in your development, solving difficult but interesting tasks and working in a team to achieve a common goal.
