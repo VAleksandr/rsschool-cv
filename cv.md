@@ -5,7 +5,7 @@
 
 ___
 
->### Phone: +375 29 7322324
+>### Phone: +375 29 732-23-24
 >### E-mail: vlasovgomel@gmail.com 
 #### ***ABOUT ME***
 
