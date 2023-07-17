@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="container">
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="#contact">CONTACT</a></li>
+                    <li class="menu-item"><a href="#about-me">ABOUT ME</a></li>
+                    <li class="menu-item"><a href="#code-example">CODE EXAMPLE</a></li>
+                    <li class="menu-item"><a href="#education">EDUCATION</a></li>
+                    <li class="menu-item"><a href="#languages">LANGUAGES</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="circle-image">
+                    <img src="assets/avatar.jpg" alt="avatar">
+                </div>
+                <h1>ALEKSANDR VLASOV</h1>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="contact">
+                <h2>CONTACT</h2>
+                <ul>
+                    <li>Phone: +375 29 732-23-24</li>
+                    <li>E-mail: vlasovgomel@gmail.com</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="about-me">
+                <h2>ABOUT ME</h2>
+                <p>I love to learn new things and improve on the old. I  feel satisfaction from the very process of thinking and writing code. I like to consider several solutions and choose the best, look at the problem from different angles, offering effective solutions. I like to develop myself, solving complex but interesting tasks and working in a team to achieve a common goal.</p>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="skills">
+                <h2>SKILLS</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="code-example">
+                <h2>CODE EXAMPLE</h2>
+                <p>Given the triangle of consecutive odd numbers:</p>
+                <pre>             1</pre>
+                <pre>          3     5</pre>
+                <pre>       7     9    11</pre>
+                <pre>   13    15    17    19</pre>
+                <pre>21    23    25    27    29</pre>
+                <pre>...</pre>
+                <p>function rowSumOddNumbers(n) {</p>
+                <p>  let x = n * (n - 1) + 1;</p>
+                <p>  let y = x;</p>
+                <p>  for (let i = 1; i &lt; n; i++) {</p>
+                <p>    x = x + 2;</p>
+                <p>    y = y + x;</p>
+                <p>  }</p>
+                <p></p>
+                <p>  return y;</p>
+                <p>}</p>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="projecks">
+                <h2>PROJECKS</h2>
+                <div>
+                    <a href="https://VAleksandr.github.io/rsschool-cv/">My CV</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="education">
+                <h2>EDUCATION</h2>
+                <ul>
+                    <li>2022 Educational Center for Programming and High Tech IT-Academy / Courses: Web application development with JavaScript</li>
+                    <li>2022 Educational Center for Programming and High Tech IT-Academy / Courses: Website development using HTML, CSS and JavaScript</li>
+                    <li>2008 Francisk Skorina Gomel State University / jurisprudence</li>
+                    <li>2002 Belarusian State University of Transport / electrotechnical</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="languages">
+                <h2>LANGUAGES</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - A1</li>
+                </ul>    
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <a href="https://github.com/VAleksandr">My Github</a>
+            </div>
+            <div class="rights">2023</div>
+            <div class="logo">
+                <a href="https://rs.school/js-stage0/">
+                    <img src="assets/logo.png" alt="Logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
